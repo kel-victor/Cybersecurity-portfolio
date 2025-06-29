@@ -30,16 +30,17 @@ const Hero = ({ scrollToSection }) => {
             target="_blank"
             rel="noopener noreferrer"
             title="View Full Profile Picture"
-            className="h-full w-full"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto"
           >
             <img
               src="./Martins.jpg"
               alt="Martins Jesurobo"
-              className="h-full w-fited object-cover rounded-r-full md:rounded-r-[60%] rounded-l-none -ml-12"
-              style={{ maskImage: "radial-gradient(ellipse at center, black 60%, transparent 100%)",
-              WebkitMaskImage: "radial-gradient(ellipse at center, black 60%, transparent 100%)",
-              objectPosition: "center left",}}
-              
+              className="object-cover rounded-r-full md:rounded-r-[60%] rounded-l-none -ml-12"
+              style={{
+                maskImage: "radial-gradient(ellipse at center, black 60%, transparent 100%)",
+                WebkitMaskImage: "radial-gradient(ellipse at center, black 60%, transparent 100%)",
+                objectPosition: "center left",
+              }}
             />
           </a>
         </div>
